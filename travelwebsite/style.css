@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 80%;
+
+  margin: auto;
+  padding: 34px;
+}
+.container h1,
+p {
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: "Shadows Into Light Two", cursive;
+}
+h1 {
+  color: black;
+  font-family: "IBM Plex Mono", monospace;
+}
+input,
+textarea {
+  border: 2px solid black;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  width: 80%;
+  margin: 11px;
+  padding: 7px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn {
+  font-style: bold;
+  border: solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+.bg {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.9;
+  font-family: "Shadows Into Light Two", cursive;
+}
+.btn:hover {
+  border: white;
+  background-color: plum; /* Green */
+  color: white;
+}
